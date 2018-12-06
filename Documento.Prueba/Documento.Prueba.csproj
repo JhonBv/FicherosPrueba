@@ -2,15 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>46142dcf-11e5-410c-9138-45c9c5f1ab7d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="FicherosStorage\" />
+    <Folder Include="Fabricas\" />
+    <Folder Include="WebJobs\" />
+    <Folder Include="Servicios\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Castle.Windsor" Version="4.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
 </Project>

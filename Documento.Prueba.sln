@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documento.Prueba", "Documento.Prueba\Documento.Prueba.csproj", "{C5F6862A-8753-4338-9D5E-F400F88A356A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Documento.Prueba", "Documento.Prueba\Documento.Prueba.csproj", "{C5F6862A-8753-4338-9D5E-F400F88A356A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documento.Prueba.Tests", "Documento.Prueba.Tests\Documento.Prueba.Tests.csproj", "{169F417B-D2B2-4789-950B-A4C1754C0FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FicheroCargadorService", "FicheroCargadorService\FicheroCargadorService.csproj", "{A93799AF-DE5D-4EB5-AA0E-4682262AA21E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C5F6862A-8753-4338-9D5E-F400F88A356A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5F6862A-8753-4338-9D5E-F400F88A356A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5F6862A-8753-4338-9D5E-F400F88A356A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169F417B-D2B2-4789-950B-A4C1754C0FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169F417B-D2B2-4789-950B-A4C1754C0FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169F417B-D2B2-4789-950B-A4C1754C0FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169F417B-D2B2-4789-950B-A4C1754C0FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93799AF-DE5D-4EB5-AA0E-4682262AA21E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93799AF-DE5D-4EB5-AA0E-4682262AA21E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93799AF-DE5D-4EB5-AA0E-4682262AA21E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93799AF-DE5D-4EB5-AA0E-4682262AA21E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
