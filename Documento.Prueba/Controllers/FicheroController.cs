@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Documento.Prueba.Interfaces;
 using Documento.Prueba.Modelos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +14,13 @@ namespace Documento.Prueba.Controllers
     [ApiController]
     public class FicheroController : ControllerBase
     {
+        private IFicheroRepositorio _ficheroRepo;
+
+        public FicheroController(IFicheroRepositorio repo)
+        {
+
+        }
+
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
